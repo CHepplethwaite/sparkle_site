@@ -47,3 +47,23 @@
     top: 0; 
     opacity: 1;
 }
+
+/* Add this style for the scroll-to-top button */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.3;
+    font-size: 24px;
+    background-color: #3b5c9e;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.scroll-top-btn:hover {
+    opacity: 1;
+}
